@@ -1,0 +1,11 @@
+package in.pwskills.kalyan.beans;
+
+public class CustomerBO {
+	private String custName;
+	private String custAddr;
+	private Float pamt;
+	private Float rate;
+	private Float time;
+	
+	private Float interestAmount;
+}

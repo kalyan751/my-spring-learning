@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;10-SpringAnnotationConfigApp-SPELEX&apos; to &apos;11-SpringAnnotationConfigApp-SPELEX&apos;" description="Rename resource &apos;10-SpringAnnotationConfigApp-SPELEX&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/10-SpringAnnotationConfigApp-SPELEX" name="11-SpringAnnotationConfigApp-SPELEX" stamp="1735799811557" updateReferences="true"/>
+</session>

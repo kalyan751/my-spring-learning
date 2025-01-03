@@ -1,0 +1,43 @@
+package in.pwskills.kalyan.beans;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
+
+@Component
+@PropertySource("Application.properties")
+public class VoterVerifier {
+	
+	private String name;
+	private String age;
+	
+	private LocalDate date;
+
+	static {
+		System.out.println("VoterVerifier.class file is loading");
+	}
+
+	public VoterVerifier() {
+		System.out.println("VoterVerifier :: Object instansiated");
+	}
+	
+	//Initialization method  //this method will be called automatically // I can use this methods to fill the values of the instance variables
+	//so that when I call the method using the object the object will be redy with the data of instance variables 
+	public void myInit() {
+
+	}
+
+	// Business Logic method //this method will be called by programmer only when object is created
+	public void checkVotingEligibility() {
+
+	}
+	
+	//Destruction method //this method will be called automatically // I can use this methods to fill the values of the instance variables
+	//so that when I call the method using the object the object will be redy with the data of instance variables 
+	public void myDestroy() {
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package in.pwskills.kalyan.beans;
+
+import org.springframework.beans.factory.annotation.Lookup;
+
+public interface Cricketer {
+	
+	@Lookup
+	CricketBat createCricketBat();
+	
+	default void fielding() {
+		System.out.println("Cricketer is doing fielding");
+	}
+	
+	default void bowling() {
+		System.out.println("Cricketer is doing bowling");
+	}
+	
+	default void wicketKeeping() {
+		System.out.println("Cricketer is doing wicketKeeping");
+	}
+	
+	
+	
+	
+}

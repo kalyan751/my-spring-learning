@@ -1,0 +1,15 @@
+package in.pwskills.kalyan.replacer;
+
+import java.lang.reflect.Method;
+
+import org.springframework.beans.factory.support.MethodReplacer;
+
+public class BankCalculateSimpleInterest implements MethodReplacer{
+
+	@Override //it is telling on what object I shoul call a particular method so that I should ececute this body
+	public Object reimplement(Object obj, Method method, Object[] args) throws Throwable {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

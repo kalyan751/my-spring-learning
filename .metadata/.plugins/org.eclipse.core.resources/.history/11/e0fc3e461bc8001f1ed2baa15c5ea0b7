@@ -1,0 +1,31 @@
+package in.pwskills.kalyan.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class VoterVerifier {
+
+	static {
+		System.out.println("VoterVerifier.class file is loading");
+	}
+
+	public VoterVerifier() {
+		System.out.println("VoterVerifier :: Object instansiated");
+	}
+	
+	//Initialization method 
+	public void myInit() {
+
+	}
+
+	// Business Logic method
+	public void checkVotingEligibility() {
+
+	}
+	
+	//Destruction method 
+	public void myDestroy() {
+
+	}
+
+}

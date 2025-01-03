@@ -1,0 +1,13 @@
+package in.pwskills.kalyan.controller;
+
+import org.springframework.stereotype.Component;
+
+import in.pwskills.kalyan.beans.CustomerVo;
+
+@Component(value="customerController")
+public class CustomerController {
+	public String processCustomer(CustomerVo vo) {
+		
+		return null;
+	}
+}
